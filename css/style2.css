@@ -8,11 +8,10 @@ body{
 }
 
 .home-menu {
-	
 	width: 100%;
 	color : #0078e70d;
 	background: none;
-
+  box-shadow: initial;
 }
 
 .home-menu .pure-menu .pure-menu-horizontal .pure-menu-fixed{
