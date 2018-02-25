@@ -2,15 +2,15 @@
 * @Author: Imam
 * @Date:   2018-02-25 03:18:52
 * @Last Modified by:   Imam
-* @Last Modified time: 2018-02-26 02:06:02
+* @Last Modified time: 2018-02-26 02:10:46
 */
 $(document).ready(function () {
 	var $formsub = $('form#subemail')
 	
 	var USER = 'ruru18'
 	var APIKEY = '99860d3d9b5033bb430f53cd8762e116-us17'
-	var DOMAIN = 'http://localhost:8080/v2'
-	// var DOMAIN = 'https://api.rumaji.com/v2' 
+	// var DOMAIN = 'http://localhost:8080/v2'
+	var DOMAIN = 'https://api.rumaji.com/v2' 
 
 	function requestLayer (method, url, body = null) {
 
