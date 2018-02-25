@@ -263,3 +263,9 @@ to align it properly */
 .splash {
   text-align: initial;
 }
+
+.done-reg {
+  color: white;
+  text-transform: initial;
+  font-weight: 500
+}
