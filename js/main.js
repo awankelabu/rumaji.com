@@ -2,7 +2,7 @@
 * @Author: Imam
 * @Date:   2018-02-25 03:18:52
 * @Last Modified by:   Imam
-* @Last Modified time: 2018-02-26 03:07:56
+* @Last Modified time: 2018-02-26 03:23:49
 */
 $(document).ready(function () {
 	var $formsub = $('form#subemail')
@@ -16,7 +16,7 @@ $(document).ready(function () {
 
 		var options = {}
 		options['method'] = method
-		if(body) options['body'] = body
+		if(body) options['body'] = JSON.stringify(body)
 		options['headers'] = {
 			'Content-Type': 'application/json',
 			Accept: 'application/json',
