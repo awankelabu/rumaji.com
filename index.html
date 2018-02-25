@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example that shows off a responsive product landing page.">
     <title>rumaji</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
     
     <!--[if lte IE 8]>
@@ -43,9 +43,9 @@
         <p class="splash-subhead">
            baca.tulis.bagikan
         </p>
-    	<form class="pure-form pure-g">
+    	<form id="subemail" class="pure-form pure-g">
 	    	<div class="pure-u-1-2">
-		        <input class="pure-input-rounded" type="text" placeholder="Email">
+		        <input id="email" class="pure-input-rounded" type="text" placeholder="Email">
 		    </div>
 		    <div class="pure-u-1-4">
 		       <button type="submit" class="pure-button">Subscribe</button>
@@ -128,7 +128,9 @@
 </div>
 
 
-
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/md5.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
