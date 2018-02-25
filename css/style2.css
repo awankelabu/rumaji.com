@@ -28,7 +28,7 @@ body{
 }
 
 .splash-container{
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/bg2.png');;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/bg2.jpg');
   /*background-color :#071c3cd1;*/
   /*background-image :url('C:/xampp/htdocs/rumaji.com/img/bg2.png');*/
 	background-repeat: no-repeat;
