@@ -2,13 +2,13 @@
 * @Author: Imam
 * @Date:   2018-02-25 03:18:52
 * @Last Modified by:   Imam
-* @Last Modified time: 2018-02-26 02:57:37
+* @Last Modified time: 2018-02-26 03:07:56
 */
 $(document).ready(function () {
 	var $formsub = $('form#subemail')
 
 	// var DOMAIN = 'http://localhost:8080/v2'
-	var DOMAIN = 'https://api.rumaji.com/v2' 
+	var DOMAIN = 'http://api.rumaji.com/v2' 
 
 	function requestLayer (method, url, body = null) {
 
