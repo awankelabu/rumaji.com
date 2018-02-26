@@ -274,6 +274,14 @@ to align it properly */
   font-weight: 500
 }
 
+.done-reg-mbl {
+    width: 200px;
+    color: white;
+    text-transform: initial;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
 @media only screen and (max-width: 768px) {
   .splash{
    left:50px ;
