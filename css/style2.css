@@ -28,7 +28,7 @@ body{
 }
 
 .splash-container{
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/bg2.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/bg.jpg');
   /*background-color :#071c3cd1;*/
   /*background-image :url('C:/xampp/htdocs/rumaji.com/img/bg2.png');*/
 	background-repeat: no-repeat;
@@ -111,6 +111,10 @@ body{
   line-height: 0;
 }
 
+.mobile{
+    display: none;
+  }
+  
 .wrapper {
   /* position: absolute; */
   /* top: 62%; */
@@ -268,4 +272,69 @@ to align it properly */
   color: white;
   text-transform: initial;
   font-weight: 500
+}
+
+@media only screen and (max-width: 768px) {
+  .splash{
+   left:50px ;
+  }
+  .pure-u-1-2{
+      display: none;
+  }
+  .pure-u-1-4{
+      display: none;
+  }
+
+  .pure-u-1{
+      display: none;
+  }
+  .mobile {
+    display: inline;
+    margin-top: -10px;
+    margin-right: 3px;
+  }
+  .daftar{
+    font-size :10px;
+    margin-top: 1px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    text-transform: lowercase;
+    letter-spacing: .5px;
+    line-height: 0;
+   
+  }
+
+   .mobile .pure-input-rounded {
+    margin-top: 0;
+
+  }
+
+  .pure-button {
+
+    margin: -0.3em 0 0;
+
+  }
+
+
+
+}
+
+@media only screen and (max-width: 480px){
+  .mobile {
+    display: inline;
+  }
+  .pure-form button[type=submit] {
+      margin: -0.3em 0 0;
+    }
+
+  .daftar{
+    font-size :10px;
+    margin-top: 1px;
+    margin-left: 14px;
+    text-transform: lowercase;
+    letter-spacing: .5px;
+    line-height: 0;
+   
+  }
+
 }
