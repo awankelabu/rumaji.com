@@ -8,9 +8,9 @@ body{
 }
 
 .home-menu {
-	width: 100%;
-	color : #0078e70d;
-	background: none;
+  width: 100%;
+  color : #0078e70d;
+  background: none;
   box-shadow: initial;
 }
 
@@ -28,10 +28,10 @@ body{
 }
 
 .splash-container{
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/bg2.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/bg2.jpg');
   /*background-color :#071c3cd1;*/
   /*background-image :url('C:/xampp/htdocs/rumaji.com/img/bg2.png');*/
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
     background-size: cover;
     position: absolute!important;
     height: 100%;
@@ -41,36 +41,36 @@ body{
 
 
 .splash{
-	
-	top: 3px;
+  
+  top: 3px;
     left: 70px;
     bottom: 40px;
-    right: 650px;	
+    right: 650px; 
     width: 500px;
 }
 
 
 .splash-head {
     font-size: 50px;
-   	padding:15px 0 0 0;
-   	text-align:left;
-   	text-transform: lowercase;
-   	
-   	border:none;
-   	line-height: 0;
+    padding:15px 0 0 0;
+    text-align:left;
+    text-transform: lowercase;
+    
+    border:none;
+    line-height: 0;
 }
 .splash-subhead {
-	font-size: 18px;
-   	padding:5px;
-   	text-align:left;
-   	text-transform: lowercase;
+  font-size: 18px;
+    padding:5px;
+    text-align:left;
+    text-transform: lowercase;
   
 }
 
 
 
 .content-subhead{
-	margin: auto;
+  margin: auto;
     width: 100px;
     height:100px;
     border-width: 3px;
@@ -81,32 +81,32 @@ body{
 }
 
 .l-box {
-	padding: 0;
+  padding: 0;
 
 }
 
 .pure-u-1 .form-box{
-		margin: auto;
+    margin: auto;
 }
 .pure-u-1-4{
 
-	padding-left: 10px;
-	padding-top: 2px;
+  padding-left: 10px;
+  padding-top: 2px;
 }
 
 .pure-form .pure-g .pure-u-1{
-	font-size:10px;
+  font-size:10px;
 }
 
 .pure-button {
 
-	border-radius: 30px;
+  border-radius: 30px;
 }
 .pure-u-1 .daftar {
-	font-size :10px;
+  font-size :10px;
   margin-top: -9px;
   margin-left: 17px;
-	text-transform: lowercase;
+  text-transform: lowercase;
   letter-spacing: .5px;
   line-height: 0;
 }
@@ -253,15 +253,14 @@ to align it properly */
 }
 
 .footer {
-	background-color: #2785c300;
-	color:white;
-	height: 5%;
-	text-align: right;
-	position: absolute!important;
-	font-size:15px;
-	padding-right: 8px;
-	padding-left: 8px;
-
+  background-color: #2785c300;
+  color:white;
+  height: 5%;
+  text-align: right;
+  position: fixed!important;
+  font-size:15px;
+  padding-right: 8px;
+  padding-left: 8px;
 }
 
 .splash {
